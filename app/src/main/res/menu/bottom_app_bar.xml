@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/darktheme"
+        android:icon="@drawable/dark"
+        android:title="@string/turn_on_dark_theme"
+        android:onClick="darkmode_activation"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/contactDev"
+        android:icon="@drawable/contact_dev"
+        android:onClick="contact_softcodes"
+        android:title="@string/contact_developer"
+        />
+    <item
+        android:id="@+id/exitapp"
+        android:icon="@drawable/logout"
+        android:onClick="exit"
+        android:title="@string/exit"
+        />
+</menu>
